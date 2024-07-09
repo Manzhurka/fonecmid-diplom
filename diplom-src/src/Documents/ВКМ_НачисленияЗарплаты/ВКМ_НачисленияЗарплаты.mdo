@@ -31,7 +31,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.ВКМ_НачисленияЗарплаты.Form.ФормаДокумента</defaultObjectForm>
+  <defaultObjectForm>Document.ВКМ_НачисленияЗарплаты.Form.ВКМ_ФормаДокумента</defaultObjectForm>
   <registerRecords>CalculationRegister.ВКМ_ОсновныеНачисления</registerRecords>
   <registerRecords>CalculationRegister.ВКМ_ДополнительныеНачисления</registerRecords>
   <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
@@ -93,7 +93,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="59318348-593f-4767-bc9b-908b3a6b93dd">
-    <name>ФормаДокумента</name>
+    <name>ВКМ_ФормаДокумента</name>
     <synonym>
       <key>ru</key>
       <value>Форма документа</value>
