@@ -141,7 +141,7 @@
     <name>ГруппаГрафик</name>
     <id>42</id>
     <items xsi:type="form:FormField">
-      <name>ВКМ_Год</name>
+      <name>Год</name>
       <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -149,10 +149,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_Год</segments>
+        <segments>Объект.Год</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ГодРасширеннаяПодсказка</name>
+        <name>ГодРасширеннаяПодсказка</name>
         <id>9</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -167,7 +167,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ГодКонтекстноеМеню</name>
+        <name>ГодКонтекстноеМеню</name>
         <id>8</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -191,7 +191,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:Button">
-      <name>ВКМ_АнализГрафика</name>
+      <name>АнализГрафика</name>
       <id>40</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -199,7 +199,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ВКМ_АнализГрафикаРасширеннаяПодсказка</name>
+        <name>АнализГрафикаРасширеннаяПодсказка</name>
         <id>41</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -214,7 +214,7 @@
         </extInfo>
       </extendedTooltip>
       <type>UsualButton</type>
-      <commandName>Form.Command.ВКМ_АнализГрафика</commandName>
+      <commandName>Form.Command.АнализГрафика</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -256,7 +256,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:Table">
-    <name>ВКМ_ОтпускаСотрудников</name>
+    <name>ОтпускаСотрудников</name>
     <id>10</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -264,11 +264,11 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВКМ_ОтпускаСотрудников</segments>
+      <segments>Объект.ОтпускаСотрудников</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>ВКМ_ОтпускаСотрудниковНомерСтроки</name>
+      <name>ОтпускаСотрудниковНомерСтроки</name>
       <id>23</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -276,10 +276,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_ОтпускаСотрудников.LineNumber</segments>
+        <segments>Объект.ОтпускаСотрудников.LineNumber</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ОтпускаСотрудниковНомерСтрокиРасширеннаяПодсказка</name>
+        <name>ОтпускаСотрудниковНомерСтрокиРасширеннаяПодсказка</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -294,7 +294,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ОтпускаСотрудниковНомерСтрокиКонтекстноеМеню</name>
+        <name>ОтпускаСотрудниковНомерСтрокиКонтекстноеМеню</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -314,7 +314,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_ОтпускаСотрудниковВКМ_Сотрудник</name>
+      <name>ОтпускаСотрудниковСотрудник</name>
       <id>26</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -322,10 +322,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_ОтпускаСотрудников.ВКМ_Сотрудник</segments>
+        <segments>Объект.ОтпускаСотрудников.Сотрудник</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ОтпускаСотрудниковВКМ_СотрудникРасширеннаяПодсказка</name>
+        <name>ОтпускаСотрудниковСотрудникРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -340,7 +340,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ОтпускаСотрудниковВКМ_СотрудникКонтекстноеМеню</name>
+        <name>ОтпускаСотрудниковСотрудникКонтекстноеМеню</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -364,7 +364,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_ОтпускаСотрудниковВКМ_ДатаНачала</name>
+      <name>ОтпускаСотрудниковДатаНачала</name>
       <id>29</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -372,10 +372,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_ОтпускаСотрудников.ВКМ_ДатаНачала</segments>
+        <segments>Объект.ОтпускаСотрудников.ДатаНачала</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ОтпускаСотрудниковВКМ_ДатаНачалаРасширеннаяПодсказка</name>
+        <name>ОтпускаСотрудниковДатаНачалаРасширеннаяПодсказка</name>
         <id>31</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -390,7 +390,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ОтпускаСотрудниковВКМ_ДатаНачалаКонтекстноеМеню</name>
+        <name>ОтпускаСотрудниковДатаНачалаКонтекстноеМеню</name>
         <id>30</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -414,7 +414,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_ОтпускаСотрудниковВКМ_ДатаОкончания</name>
+      <name>ОтпускаСотрудниковДатаОкончания</name>
       <id>32</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -422,10 +422,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_ОтпускаСотрудников.ВКМ_ДатаОкончания</segments>
+        <segments>Объект.ОтпускаСотрудников.ДатаОкончания</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ОтпускаСотрудниковВКМ_ДатаОкончанияРасширеннаяПодсказка</name>
+        <name>ОтпускаСотрудниковДатаОкончанияРасширеннаяПодсказка</name>
         <id>34</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -440,7 +440,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ОтпускаСотрудниковВКМ_ДатаОкончанияКонтекстноеМеню</name>
+        <name>ОтпускаСотрудниковДатаОкончанияКонтекстноеМеню</name>
         <id>33</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -464,17 +464,17 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_ОтпускаСотрудниковВКМ_ДнейОтпуска</name>
+      <name>ОтпускаСотрудниковДнейОтпуска</name>
       <id>37</id>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_ОтпускаСотрудников.ВКМ_ДнейОтпуска</segments>
+        <segments>Объект.ОтпускаСотрудников.ДнейОтпуска</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ОтпускаСотрудниковВКМ_ДнейОтпускаРасширеннаяПодсказка</name>
+        <name>ОтпускаСотрудниковДнейОтпускаРасширеннаяПодсказка</name>
         <id>39</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -489,7 +489,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ОтпускаСотрудниковВКМ_ДнейОтпускаКонтекстноеМеню</name>
+        <name>ОтпускаСотрудниковДнейОтпускаКонтекстноеМеню</name>
         <id>38</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -513,7 +513,7 @@
       </extInfo>
     </items>
     <autoCommandBar>
-      <name>ВКМ_ОтпускаСотрудниковКоманднаяПанель</name>
+      <name>ОтпускаСотрудниковКоманднаяПанель</name>
       <id>12</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -525,7 +525,7 @@
     </autoCommandBar>
     <handlers>
       <event>OnChange</event>
-      <name>ВКМ_ОтпускаСотрудниковПриИзменении</name>
+      <name>ОтпускаСотрудниковПриИзменении</name>
     </handlers>
     <searchStringAddition>
       <visible>true</visible>
@@ -533,10 +533,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>ВКМ_ОтпускаСотрудниковСтрокаПоиска</name>
+      <name>ОтпускаСотрудниковСтрокаПоиска</name>
       <id>14</id>
       <extendedTooltip>
-        <name>ВКМ_ОтпускаСотрудниковСтрокаПоискаРасширеннаяПодсказка</name>
+        <name>ОтпускаСотрудниковСтрокаПоискаРасширеннаяПодсказка</name>
         <id>16</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -551,7 +551,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ОтпускаСотрудниковСтрокаПоискаКонтекстноеМеню</name>
+        <name>ОтпускаСотрудниковСтрокаПоискаКонтекстноеМеню</name>
         <id>15</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -560,7 +560,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ВКМ_ОтпускаСотрудниковСтрокаПоиска</source>
+      <source>ОтпускаСотрудниковСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -571,10 +571,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>ВКМ_ОтпускаСотрудниковСостояниеПросмотра</name>
+      <name>ОтпускаСотрудниковСостояниеПросмотра</name>
       <id>17</id>
       <extendedTooltip>
-        <name>ВКМ_ОтпускаСотрудниковСостояниеПросмотраРасширеннаяПодсказка</name>
+        <name>ОтпускаСотрудниковСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>19</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -589,7 +589,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ОтпускаСотрудниковСостояниеПросмотраКонтекстноеМеню</name>
+        <name>ОтпускаСотрудниковСостояниеПросмотраКонтекстноеМеню</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -599,7 +599,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ВКМ_ОтпускаСотрудниковСостояниеПросмотра</source>
+      <source>ОтпускаСотрудниковСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -610,10 +610,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>ВКМ_ОтпускаСотрудниковУправлениеПоиском</name>
+      <name>ОтпускаСотрудниковУправлениеПоиском</name>
       <id>20</id>
       <extendedTooltip>
-        <name>ВКМ_ОтпускаСотрудниковУправлениеПоискомРасширеннаяПодсказка</name>
+        <name>ОтпускаСотрудниковУправлениеПоискомРасширеннаяПодсказка</name>
         <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -628,7 +628,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ОтпускаСотрудниковУправлениеПоискомКонтекстноеМеню</name>
+        <name>ОтпускаСотрудниковУправлениеПоискомКонтекстноеМеню</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -638,13 +638,13 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ВКМ_ОтпускаСотрудниковУправлениеПоиском</source>
+      <source>ОтпускаСотрудниковУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ВКМ_ОтпускаСотрудниковРасширеннаяПодсказка</name>
+      <name>ОтпускаСотрудниковРасширеннаяПодсказка</name>
       <id>13</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -659,7 +659,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВКМ_ОтпускаСотрудниковКонтекстноеМеню</name>
+      <name>ОтпускаСотрудниковКонтекстноеМеню</name>
       <id>11</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -732,10 +732,10 @@
     <savedData>true</savedData>
     <additionalColumns>
       <tablePath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_ОтпускаСотрудников</segments>
+        <segments>Объект.ОтпускаСотрудников</segments>
       </tablePath>
       <columns>
-        <name>ВКМ_ДнейОтпуска</name>
+        <name>ДнейОтпуска</name>
         <title>
           <key>ru</key>
           <value>Дней отпуска</value>
@@ -757,7 +757,7 @@
     </additionalColumns>
   </attributes>
   <formCommands>
-    <name>ВКМ_АнализГрафика</name>
+    <name>АнализГрафика</name>
     <title>
       <key>ru</key>
       <value>Анализ графика</value>
@@ -768,7 +768,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВКМ_АнализГрафика</name>
+        <name>АнализГрафика</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

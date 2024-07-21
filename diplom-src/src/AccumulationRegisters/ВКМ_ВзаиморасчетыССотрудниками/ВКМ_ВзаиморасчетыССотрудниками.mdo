@@ -17,7 +17,7 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="d1408de4-c236-4673-931b-da25f3b4aa3b">
-    <name>ВКМ_Сумма</name>
+    <name>Сумма</name>
     <synonym>
       <key>ru</key>
       <value>Сумма</value>
@@ -33,7 +33,7 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="fe2dba1c-e6ff-488c-9b82-e7a9a03ae72d">
-    <name>ВКМ_Сотрудник</name>
+    <name>Сотрудник</name>
     <synonym>
       <key>ru</key>
       <value>Сотрудник</value>

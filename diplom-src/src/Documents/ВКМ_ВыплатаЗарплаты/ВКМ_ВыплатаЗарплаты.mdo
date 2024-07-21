@@ -28,7 +28,7 @@
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="bed2c66a-2fb7-4b3e-aa81-3eedcb5a840c">
-    <name>ВКМ_Комментарий</name>
+    <name>Комментарий</name>
     <synonym>
       <key>ru</key>
       <value>Комментарий</value>
@@ -59,13 +59,13 @@
       <objectType typeId="9a93f1c8-2581-4c91-9330-64f1391e30c6" valueTypeId="43f2eb7a-cce3-4bea-96b5-4ebcb08c4abc"/>
       <rowType typeId="1d933931-2c75-41fc-aab4-9688b243dfa6" valueTypeId="11186ba6-7d3a-49e8-a56b-d05b7c6a3f7b"/>
     </producedTypes>
-    <name>ВКМ_Выплаты</name>
+    <name>Выплаты</name>
     <synonym>
       <key>ru</key>
       <value>Выплаты</value>
     </synonym>
     <attributes uuid="ac88446d-77ab-4dbe-aaa0-6c60f41b2db3">
-      <name>ВКМ_Сотрудник</name>
+      <name>Сотрудник</name>
       <synonym>
         <key>ru</key>
         <value>Сотрудник</value>
@@ -79,7 +79,7 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="0261e923-38ba-4dee-a0ca-54b1be3c0516">
-      <name>ВКМ_Сумма</name>
+      <name>Сумма</name>
       <synonym>
         <key>ru</key>
         <value>Сумма</value>

@@ -138,7 +138,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:Button">
-    <name>ВКМ_Заполнить</name>
+    <name>Заполнить</name>
     <id>34</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -146,7 +146,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ВКМ_ЗаполнитьРасширеннаяПодсказка</name>
+      <name>ЗаполнитьРасширеннаяПодсказка</name>
       <id>35</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -161,7 +161,7 @@
       </extInfo>
     </extendedTooltip>
     <type>UsualButton</type>
-    <commandName>Form.Command.ВКМ_Заполнить</commandName>
+    <commandName>Form.Command.Заполнить</commandName>
     <representation>Auto</representation>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
@@ -183,11 +183,11 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВКМ_Выплаты</segments>
+      <segments>Объект.Выплаты</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>ВКМ_ВыплатыНомерСтроки</name>
+      <name>ВыплатыНомерСтроки</name>
       <id>23</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -195,10 +195,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_Выплаты.LineNumber</segments>
+        <segments>Объект.Выплаты.LineNumber</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ВыплатыНомерСтрокиРасширеннаяПодсказка</name>
+        <name>ВыплатыНомерСтрокиРасширеннаяПодсказка</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -213,7 +213,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ВыплатыНомерСтрокиКонтекстноеМеню</name>
+        <name>ВыплатыНомерСтрокиКонтекстноеМеню</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -233,7 +233,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_ВыплатыВКМ_Сотрудник</name>
+      <name>ВыплатыСотрудник</name>
       <id>26</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -241,10 +241,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_Выплаты.ВКМ_Сотрудник</segments>
+        <segments>Объект.Выплаты.Сотрудник</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ВыплатыВКМ_СотрудникРасширеннаяПодсказка</name>
+        <name>ВыплатыСотрудникРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -259,7 +259,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ВыплатыВКМ_СотрудникКонтекстноеМеню</name>
+        <name>ВыплатыСотрудникКонтекстноеМеню</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -283,7 +283,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_ВыплатыВКМ_Сумма</name>
+      <name>ВыплатыСумма</name>
       <id>29</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -291,10 +291,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_Выплаты.ВКМ_Сумма</segments>
+        <segments>Объект.Выплаты.Сумма</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ВыплатыВКМ_СуммаРасширеннаяПодсказка</name>
+        <name>ВыплатыСуммаРасширеннаяПодсказка</name>
         <id>31</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -309,7 +309,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ВыплатыВКМ_СуммаКонтекстноеМеню</name>
+        <name>ВыплатыСуммаКонтекстноеМеню</name>
         <id>30</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -507,7 +507,7 @@
     <fileDragMode>AsFileRef</fileDragMode>
   </items>
   <items xsi:type="form:FormField">
-    <name>ВКМ_Комментарий</name>
+    <name>Комментарий</name>
     <id>7</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -515,10 +515,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВКМ_Комментарий</segments>
+      <segments>Объект.Комментарий</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ВКМ_КомментарийРасширеннаяПодсказка</name>
+      <name>КомментарийРасширеннаяПодсказка</name>
       <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -533,7 +533,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВКМ_КомментарийКонтекстноеМеню</name>
+      <name>КомментарийКонтекстноеМеню</name>
       <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -594,7 +594,7 @@
     <savedData>true</savedData>
   </attributes>
   <formCommands>
-    <name>ВКМ_Заполнить</name>
+    <name>Заполнить</name>
     <title>
       <key>ru</key>
       <value>Заполнить</value>
@@ -605,7 +605,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВКМ_Заполнить</name>
+        <name>Заполнить</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

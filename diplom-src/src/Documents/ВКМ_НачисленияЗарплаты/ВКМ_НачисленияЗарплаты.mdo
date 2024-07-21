@@ -31,7 +31,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.ВКМ_НачисленияЗарплаты.Form.ВКМ_ФормаДокумента</defaultObjectForm>
+  <defaultObjectForm>Document.ВКМ_НачисленияЗарплаты.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>CalculationRegister.ВКМ_ОсновныеНачисления</registerRecords>
   <registerRecords>CalculationRegister.ВКМ_ДополнительныеНачисления</registerRecords>
   <registerRecords>CalculationRegister.ВКМ_Удержания</registerRecords>
@@ -39,7 +39,7 @@
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="f510c9d6-ef01-46fc-b2dd-a392715c5115">
-    <name>ВКМ_ДатаНачала</name>
+    <name>ДатаНачала</name>
     <synonym>
       <key>ru</key>
       <value>Дата начала</value>
@@ -57,7 +57,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="db66b5c4-6179-4d1f-8648-7ff2a838bea0">
-    <name>ВКМ_ДатаОкончания</name>
+    <name>ДатаОкончания</name>
     <synonym>
       <key>ru</key>
       <value>Дата окончания</value>
@@ -75,7 +75,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="99994f32-31b3-4477-863b-7f9978552d92">
-    <name>ВКМ_Комментарий</name>
+    <name>Комментарий</name>
     <synonym>
       <key>ru</key>
       <value>Комментарий</value>
@@ -93,7 +93,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="59318348-593f-4767-bc9b-908b3a6b93dd">
-    <name>ВКМ_ФормаДокумента</name>
+    <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
       <value>Форма документа</value>
@@ -106,13 +106,13 @@
       <objectType typeId="8b4ce47a-127f-44aa-bbc7-93ca665f2ff4" valueTypeId="ee56996e-1cb3-41d4-8d27-65c07f337ee3"/>
       <rowType typeId="779f231a-93f4-48ad-a530-4d8cc1bef500" valueTypeId="50ebe4bf-6907-4304-a08f-3b4137fcf0e4"/>
     </producedTypes>
-    <name>ВКМ_ОсновныеНачисления</name>
+    <name>ОсновныеНачисления</name>
     <synonym>
       <key>ru</key>
       <value>Основные начисления</value>
     </synonym>
     <attributes uuid="b730447f-6357-4589-8fe4-2cacaf5b2e47">
-      <name>ВКМ_Сотрудник</name>
+      <name>Сотрудник</name>
       <synonym>
         <key>ru</key>
         <value>Сотрудник</value>
@@ -126,7 +126,7 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="c2d6701e-96f2-4e90-983e-8e8d63e819d0">
-      <name>ВКМ_ВидРасчета</name>
+      <name>ВидРасчета</name>
       <synonym>
         <key>ru</key>
         <value>Вид расчета</value>
@@ -141,7 +141,7 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="c5b23b93-9ed7-48fb-b604-992dd6ea6a23">
-      <name>ВКМ_Показатель</name>
+      <name>Показатель</name>
       <synonym>
         <key>ru</key>
         <value>Показатель</value>
@@ -159,7 +159,7 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="b34f9e55-eaee-489b-82df-ab63d6d9fa91">
-      <name>ВКМ_ДатаНачала</name>
+      <name>ДатаНачала</name>
       <synonym>
         <key>ru</key>
         <value>Дата начала</value>
@@ -176,7 +176,7 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="1bd8e4ac-a6f4-40ed-8a30-d46be477372b">
-      <name>ВКМ_ДатаОкончания</name>
+      <name>ДатаОкончания</name>
       <synonym>
         <key>ru</key>
         <value>Дата окончания</value>
@@ -193,7 +193,7 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="ea392a03-d2b4-4e96-bdd3-b410b62dbb68">
-      <name>ВКМ_ГрафикРаботы</name>
+      <name>ГрафикРаботы</name>
       <synonym>
         <key>ru</key>
         <value>График работы</value>

@@ -4,7 +4,7 @@
     <name>ГруппаПериодСоздать</name>
     <id>28</id>
     <items xsi:type="form:FormField">
-      <name>ВКМ_Период</name>
+      <name>Период</name>
       <id>1</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -12,10 +12,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_Период</segments>
+        <segments>Объект.Период</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ПериодРасширеннаяПодсказка</name>
+        <name>ПериодРасширеннаяПодсказка</name>
         <id>3</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -30,7 +30,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ПериодКонтекстноеМеню</name>
+        <name>ПериодКонтекстноеМеню</name>
         <id>2</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -58,7 +58,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:Button">
-      <name>ФормаВКМ_СоздатьАкты</name>
+      <name>ФормаСоздатьАкты</name>
       <id>26</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -66,7 +66,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВКМ_СоздатьАктыРасширеннаяПодсказка</name>
+        <name>ФормаСоздатьАктыРасширеннаяПодсказка</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -81,7 +81,7 @@
         </extInfo>
       </extendedTooltip>
       <type>UsualButton</type>
-      <commandName>Form.Command.ВКМ_СоздатьАкты</commandName>
+      <commandName>Form.Command.СоздатьАкты</commandName>
       <representation>Auto</representation>
       <defaultButton>true</defaultButton>
       <autoMaxWidth>true</autoMaxWidth>
@@ -124,7 +124,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:Table">
-    <name>ВКМ_ДоговорыИРеализации</name>
+    <name>ДоговорыИРеализации</name>
     <id>4</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -132,11 +132,11 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВКМ_ДоговорыИРеализации</segments>
+      <segments>Объект.ДоговорыИРеализации</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>ВКМ_ДоговорыИРеализацииНомерСтроки</name>
+      <name>ДоговорыИРеализацииНомерСтроки</name>
       <id>17</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -144,10 +144,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_ДоговорыИРеализации.LineNumber</segments>
+        <segments>Объект.ДоговорыИРеализации.LineNumber</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ДоговорыИРеализацииНомерСтрокиРасширеннаяПодсказка</name>
+        <name>ДоговорыИРеализацииНомерСтрокиРасширеннаяПодсказка</name>
         <id>19</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -162,7 +162,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ДоговорыИРеализацииНомерСтрокиКонтекстноеМеню</name>
+        <name>ДоговорыИРеализацииНомерСтрокиКонтекстноеМеню</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -182,7 +182,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_ДоговорыИРеализацииВКМ_Договоры</name>
+      <name>ДоговорыИРеализацииДоговоры</name>
       <id>20</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -190,10 +190,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_ДоговорыИРеализации.ВКМ_Договоры</segments>
+        <segments>Объект.ДоговорыИРеализации.Договоры</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ДоговорыИРеализацииВКМ_ДоговорыРасширеннаяПодсказка</name>
+        <name>ДоговорыИРеализацииДоговорыРасширеннаяПодсказка</name>
         <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -208,7 +208,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ДоговорыИРеализацииВКМ_ДоговорыКонтекстноеМеню</name>
+        <name>ДоговорыИРеализацииДоговорыКонтекстноеМеню</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -232,7 +232,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_ДоговорыИРеализацииВКМ_РеализацияТоваровУслуг</name>
+      <name>ДоговорыИРеализацииРеализацияТоваровУслуг</name>
       <id>23</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -240,10 +240,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_ДоговорыИРеализации.ВКМ_РеализацияТоваровУслуг</segments>
+        <segments>Объект.ДоговорыИРеализации.РеализацияТоваровУслуг</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ДоговорыИРеализацииВКМ_РеализацияТоваровУслугРасширеннаяПодсказка</name>
+        <name>ДоговорыИРеализацииРеализацияТоваровУслугРасширеннаяПодсказка</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -258,7 +258,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ДоговорыИРеализацииВКМ_РеализацияТоваровУслугКонтекстноеМеню</name>
+        <name>ДоговорыИРеализацииРеализацияТоваровУслугКонтекстноеМеню</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -282,7 +282,7 @@
       </extInfo>
     </items>
     <autoCommandBar>
-      <name>ВКМ_ДоговорыИРеализацииКоманднаяПанель</name>
+      <name>ДоговорыИРеализацииКоманднаяПанель</name>
       <id>6</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -297,10 +297,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>ВКМ_ДоговорыИРеализацииСтрокаПоиска</name>
+      <name>ДоговорыИРеализацииСтрокаПоиска</name>
       <id>8</id>
       <extendedTooltip>
-        <name>ВКМ_ДоговорыИРеализацииСтрокаПоискаРасширеннаяПодсказка</name>
+        <name>ДоговорыИРеализацииСтрокаПоискаРасширеннаяПодсказка</name>
         <id>10</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -315,7 +315,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ДоговорыИРеализацииСтрокаПоискаКонтекстноеМеню</name>
+        <name>ДоговорыИРеализацииСтрокаПоискаКонтекстноеМеню</name>
         <id>9</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -324,7 +324,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ВКМ_ДоговорыИРеализацииСтрокаПоиска</source>
+      <source>ДоговорыИРеализацииСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -335,10 +335,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>ВКМ_ДоговорыИРеализацииСостояниеПросмотра</name>
+      <name>ДоговорыИРеализацииСостояниеПросмотра</name>
       <id>11</id>
       <extendedTooltip>
-        <name>ВКМ_ДоговорыИРеализацииСостояниеПросмотраРасширеннаяПодсказка</name>
+        <name>ДоговорыИРеализацииСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>13</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -353,7 +353,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ДоговорыИРеализацииСостояниеПросмотраКонтекстноеМеню</name>
+        <name>ДоговорыИРеализацииСостояниеПросмотраКонтекстноеМеню</name>
         <id>12</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -363,7 +363,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ВКМ_ДоговорыИРеализацииСостояниеПросмотра</source>
+      <source>ДоговорыИРеализацииСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -374,10 +374,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>ВКМ_ДоговорыИРеализацииУправлениеПоиском</name>
+      <name>ДоговорыИРеализацииУправлениеПоиском</name>
       <id>14</id>
       <extendedTooltip>
-        <name>ВКМ_ДоговорыИРеализацииУправлениеПоискомРасширеннаяПодсказка</name>
+        <name>ДоговорыИРеализацииУправлениеПоискомРасширеннаяПодсказка</name>
         <id>16</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -392,7 +392,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ДоговорыИРеализацииУправлениеПоискомКонтекстноеМеню</name>
+        <name>ДоговорыИРеализацииУправлениеПоискомКонтекстноеМеню</name>
         <id>15</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -402,13 +402,13 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ВКМ_ДоговорыИРеализацииУправлениеПоиском</source>
+      <source>ДоговорыИРеализацииУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ВКМ_ДоговорыИРеализацииРасширеннаяПодсказка</name>
+      <name>ДоговорыИРеализацииРасширеннаяПодсказка</name>
       <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -423,7 +423,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВКМ_ДоговорыИРеализацииКонтекстноеМеню</name>
+      <name>ДоговорыИРеализацииКонтекстноеМеню</name>
       <id>5</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -487,7 +487,7 @@
     <main>true</main>
   </attributes>
   <formCommands>
-    <name>ВКМ_СоздатьАкты</name>
+    <name>СоздатьАкты</name>
     <title>
       <key>ru</key>
       <value>Создать акты</value>
@@ -498,7 +498,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВКМ_СоздатьАкты</name>
+        <name>СоздатьАкты</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

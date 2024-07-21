@@ -10,9 +10,9 @@
     <value>Расчеты с сотрудниками</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <mainDataCompositionSchema>Report.ВКМ_РасчетыССотрудниками.Template.ВКМ_ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <mainDataCompositionSchema>Report.ВКМ_РасчетыССотрудниками.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="52953cfa-d2f1-4fe8-9f3a-bf849c3f8859">
-    <name>ВКМ_ОсновнаяСхемаКомпоновкиДанных</name>
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>
       <value>Основная схема компоновки данных</value>

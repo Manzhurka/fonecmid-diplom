@@ -10,9 +10,9 @@
     <value>Анализ выставленных актов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <mainDataCompositionSchema>Report.ВКМ_АнализВыставленныхАктов.Template.ВКМ_ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <mainDataCompositionSchema>Report.ВКМ_АнализВыставленныхАктов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="ad40aa96-fb62-4b4e-91fb-5e7e28ed597b">
-    <name>ВКМ_ОсновнаяСхемаКомпоновкиДанных</name>
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>
       <value>Основная схема компоновки данных</value>

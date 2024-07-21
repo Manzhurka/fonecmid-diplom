@@ -19,7 +19,7 @@
   <actionPeriod>true</actionPeriod>
   <basePeriod>true</basePeriod>
   <schedule>InformationRegister.ВКМ_ГрафикиРаботы</schedule>
-  <scheduleValue>InformationRegister.ВКМ_ГрафикиРаботы.Resource.ВКМ_РабочихДней</scheduleValue>
+  <scheduleValue>InformationRegister.ВКМ_ГрафикиРаботы.Resource.РабочихДней</scheduleValue>
   <scheduleDate>InformationRegister.ВКМ_ГрафикиРаботы.Dimension.Дата</scheduleDate>
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartOfCalculationTypes>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -28,7 +28,7 @@
     <value>Основные начисления</value>
   </listPresentation>
   <resources uuid="83effbef-ae35-4ba9-8570-10cb9aaeab50">
-    <name>ВКМ_Результат</name>
+    <name>Результат</name>
     <synonym>
       <key>ru</key>
       <value>Результат</value>
@@ -45,7 +45,7 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <resources uuid="d8c22583-dbc0-4814-841b-c69261c1f010">
-    <name>ВКМ_ОтработаноДней</name>
+    <name>ОтработаноДней</name>
     <synonym>
       <key>ru</key>
       <value>Отработано дней</value>
@@ -61,7 +61,7 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <attributes uuid="075c6bcd-b03d-401a-a36d-8420ba1811d3">
-    <name>ВКМ_ГрафикРаботы</name>
+    <name>ГрафикРаботы</name>
     <synonym>
       <key>ru</key>
       <value>График работы</value>
@@ -72,10 +72,10 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <scheduleLink>InformationRegister.ВКМ_ГрафикиРаботы.Dimension.ВКМ_ГрафикРаботы</scheduleLink>
+    <scheduleLink>InformationRegister.ВКМ_ГрафикиРаботы.Dimension.ГрафикРаботы</scheduleLink>
   </attributes>
   <dimensions uuid="2a4b7f94-e9fb-4c10-a1bc-54cf2309ede2">
-    <name>ВКМ_Сотрудник</name>
+    <name>Сотрудник</name>
     <synonym>
       <key>ru</key>
       <value>Сотрудник</value>

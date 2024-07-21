@@ -7,13 +7,6 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ВКМ_Сотрудник</dataPath>
-			<field>ВКМ_Сотрудник</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Сотрудник</dataPath>
 			<field>Сотрудник</field>
 			<title xsi:type="v8:LocalStringType">
@@ -27,80 +20,44 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Выплачено</dataPath>
-			<field>Выплачено</field>
+			<dataPath>ВКМ_Сотрудник</dataPath>
+			<field>Сотрудник</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЧасовКОплате</dataPath>
+			<field>ЧасовКОплате</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Выплачено</v8:content>
+					<v8:content>Часов к оплате</v8:content>
 				</v8:item>
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Начислено</dataPath>
-			<field>Начислено</field>
+			<dataPath>СуммаКОплате</dataPath>
+			<field>СуммаКОплате</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Начислено</v8:content>
+					<v8:content>Сумма к оплате</v8:content>
 				</v8:item>
 			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>НачалоМесяца</dataPath>
-			<field>НачалоМесяца</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Начало месяца</v8:content>
-				</v8:item>
-			</title>
-			<role>
-				<dcscom:balance>true</dcscom:balance>
-				<dcscom:balanceGroupName>Группа</dcscom:balanceGroupName>
-				<dcscom:balanceType>OpeningBalance</dcscom:balanceType>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>КонецМесяца</dataPath>
-			<field>КонецМесяца</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Конец месяца</v8:content>
-				</v8:item>
-			</title>
-			<role>
-				<dcscom:balance>true</dcscom:balance>
-				<dcscom:balanceGroupName>Группа</dcscom:balanceGroupName>
-				<dcscom:balanceType>ClosingBalance</dcscom:balanceType>
-			</role>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты.ВКМ_Сотрудник КАК Сотрудник,
-	ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты.ВКМ_СуммаНачальныйОстаток КАК НачалоМесяца,
-	ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты.ВКМ_СуммаРасход КАК Выплачено,
-	ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты.ВКМ_СуммаПриход КАК Начислено,
-	ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты.ВКМ_СуммаКонечныйОстаток КАК КонецМесяца
+	ВКМ_ВыполненныеСотрудникомРаботыОбороты.Сотрудник КАК Сотрудник,
+	ВКМ_ВыполненныеСотрудникомРаботыОбороты.ЧасовКОплатеОборот КАК ЧасовКОплате,
+	ВКМ_ВыполненныеСотрудникомРаботыОбороты.СуммаКОплатеОборот КАК СуммаКОплате
 ИЗ
-	РегистрНакопления.ВКМ_ВзаиморасчетыССотрудниками.ОстаткиИОбороты КАК ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты</query>
+	РегистрНакопления.ВКМ_ВыполненныеСотрудникомРаботы.Обороты КАК ВКМ_ВыполненныеСотрудникомРаботыОбороты</query>
 	</dataSet>
 	<totalField>
-		<dataPath>Начислено</dataPath>
-		<expression>Сумма(Начислено)</expression>
+		<dataPath>ЧасовКОплате</dataPath>
+		<expression>Сумма(ЧасовКОплате)</expression>
 	</totalField>
 	<totalField>
-		<dataPath>Выплачено</dataPath>
-		<expression>Сумма(Выплачено)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>НачалоМесяца</dataPath>
-		<expression>Сумма(НачалоМесяца)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>КонецМесяца</dataPath>
-		<expression>Сумма(КонецМесяца)</expression>
+		<dataPath>СуммаКОплате</dataPath>
+		<expression>Сумма(СуммаКОплате)</expression>
 	</totalField>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -157,7 +114,7 @@
 		<dcsset:presentation xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>Расчеты с отрудниками</v8:content>
+				<v8:content>Выработка специалистов</v8:content>
 			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
@@ -166,16 +123,10 @@
 					<dcsset:field>Сотрудник</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>НачалоМесяца</dcsset:field>
+					<dcsset:field>ЧасовКОплате</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Выплачено</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Начислено</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>КонецМесяца</dcsset:field>
+					<dcsset:field>СуммаКОплате</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:filter>
@@ -183,17 +134,23 @@
 					<dcsset:left xsi:type="dcscor:Field">Сотрудник</dcsset:left>
 					<dcsset:comparisonType>Equal</dcsset:comparisonType>
 					<dcsset:right xsi:nil="true"/>
-					<dcsset:userSettingID>98214971-1c12-4046-8485-c79b70872c5f</dcsset:userSettingID>
+					<dcsset:userSettingID>680a49da-08c3-4a52-a08e-c174817c3e49</dcsset:userSettingID>
 				</dcsset:item>
 			</dcsset:filter>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Период</dcscor:parameter>
-					<dcscor:value xsi:nil="true"/>
-					<dcsset:userSettingID>24eba84e-9bee-40b1-8973-267b9a31f065</dcsset:userSettingID>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>3a6693bb-5ca4-4e1d-b283-5f86e433bb1d</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
 					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>

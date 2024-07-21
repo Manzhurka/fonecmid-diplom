@@ -12,7 +12,7 @@
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ВКМ_ЗаполнениеГрафика.Form.Форма</defaultForm>
   <attributes uuid="110a2afb-a7f5-47f7-82b1-8103ce01ad1a">
-    <name>ВКМ_ГрафикРаботы</name>
+    <name>ГрафикРаботы</name>
     <synonym>
       <key>ru</key>
       <value>График работы</value>

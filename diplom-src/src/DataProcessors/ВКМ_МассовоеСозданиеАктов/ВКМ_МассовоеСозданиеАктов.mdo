@@ -12,7 +12,7 @@
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ВКМ_МассовоеСозданиеАктов.Form.Форма</defaultForm>
   <attributes uuid="d2310523-6cb1-44ae-83cc-f4905bf5d16b">
-    <name>ВКМ_Период</name>
+    <name>Период</name>
     <synonym>
       <key>ru</key>
       <value>Период</value>
@@ -40,13 +40,13 @@
       <objectType typeId="1cfc19d1-95d6-467f-bb78-94022ed06f9d" valueTypeId="8ffdca1a-5dad-40ad-a06e-54179ae80943"/>
       <rowType typeId="21b6a1e4-3aa4-461a-b002-927bd6e08abb" valueTypeId="3bc7e540-24ec-433e-9a0a-30d2fa8ff53e"/>
     </producedTypes>
-    <name>ВКМ_ДоговорыИРеализации</name>
+    <name>ДоговорыИРеализации</name>
     <synonym>
       <key>ru</key>
       <value>Договоры и реализации</value>
     </synonym>
     <attributes uuid="99025b29-2e18-4d96-b565-515e344f6697">
-      <name>ВКМ_Договоры</name>
+      <name>Договоры</name>
       <synonym>
         <key>ru</key>
         <value>Договор</value>
@@ -58,7 +58,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="35bf5779-c508-490a-95a4-583739e5a5c2">
-      <name>ВКМ_РеализацияТоваровУслуг</name>
+      <name>РеализацияТоваровУслуг</name>
       <synonym>
         <key>ru</key>
         <value>Реализации по договору</value>

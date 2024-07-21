@@ -51,7 +51,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ВКМ_ГрафикРаботы</name>
+    <name>ГрафикРаботы</name>
     <id>1</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -59,10 +59,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВКМ_ГрафикРаботы</segments>
+      <segments>Объект.ГрафикРаботы</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ВКМ_ГрафикРаботыРасширеннаяПодсказка</name>
+      <name>ГрафикРаботыРасширеннаяПодсказка</name>
       <id>3</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -77,7 +77,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВКМ_ГрафикРаботыКонтекстноеМеню</name>
+      <name>ГрафикРаботыКонтекстноеМеню</name>
       <id>2</id>
       <visible>true</visible>
       <enabled>true</enabled>

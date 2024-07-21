@@ -3,12 +3,12 @@
 	<item>
 		<selection>
 			<item>
-				<field>ВКМ_ОтпускаСотрудников</field>
+				<field>ОтпускаСотрудников</field>
 			</item>
 		</selection>
 		<filter>
 			<item xsi:type="FilterItemComparison">
-				<left xsi:type="dcscor:Field">Объект.ВКМ_ОтпускаСотрудников.ВКМ_ДнейОтпуска</left>
+				<left xsi:type="dcscor:Field">Объект.ОтпускаСотрудников.ДнейОтпуска</left>
 				<comparisonType>Greater</comparisonType>
 				<right xsi:type="xs:decimal">28</right>
 			</item>

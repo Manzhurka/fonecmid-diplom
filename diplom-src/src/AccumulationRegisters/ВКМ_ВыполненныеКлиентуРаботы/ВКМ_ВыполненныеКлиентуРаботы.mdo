@@ -17,7 +17,7 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="7710f598-029a-4363-9161-052038c05128">
-    <name>ВКМ_КоличествоЧасов</name>
+    <name>КоличествоЧасов</name>
     <synonym>
       <key>ru</key>
       <value>Количество часов</value>
@@ -35,7 +35,7 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <resources uuid="efa54a98-a733-4611-aff0-60b5cbcfde50">
-    <name>ВКМ_СуммаКОплате</name>
+    <name>СуммаКОплате</name>
     <synonym>
       <key>ru</key>
       <value>Сумма к оплате</value>
@@ -53,7 +53,7 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="d648e503-97fc-491f-8109-57859a478a94">
-    <name>ВКМ_Клиент</name>
+    <name>Клиент</name>
     <synonym>
       <key>ru</key>
       <value>Клиент</value>
@@ -67,7 +67,7 @@
     <useInTotals>true</useInTotals>
   </dimensions>
   <dimensions uuid="c904891a-100d-4443-af22-4670b80dca0f">
-    <name>ВКМ_Договор</name>
+    <name>Договор</name>
     <synonym>
       <key>ru</key>
       <value>Договор</value>

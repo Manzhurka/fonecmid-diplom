@@ -10,9 +10,9 @@
     <value>Выработка специалистов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <mainDataCompositionSchema>Report.ВКМ_ВыработкаСпециалистов.Template.ВКМ_ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <mainDataCompositionSchema>Report.ВКМ_ВыработкаСпециалистов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="d90c756d-ca25-4184-b00d-6a938e4b7501">
-    <name>ВКМ_ОсновнаяСхемаКомпоновкиДанных</name>
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>
       <value>Основная схема компоновки данных</value>

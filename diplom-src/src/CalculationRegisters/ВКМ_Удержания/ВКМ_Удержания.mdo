@@ -20,7 +20,7 @@
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</chartOfCalculationTypes>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="114103bd-886e-4c56-9a39-b879f9e4c6c5">
-    <name>ВКМ_Результат</name>
+    <name>Результат</name>
     <synonym>
       <key>ru</key>
       <value>Результат</value>
@@ -37,7 +37,7 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="ab99f458-c728-4b85-aa70-5e3749e616ed">
-    <name>ВКМ_Сотрудник</name>
+    <name>Сотрудник</name>
     <synonym>
       <key>ru</key>
       <value>Сотрудник</value>

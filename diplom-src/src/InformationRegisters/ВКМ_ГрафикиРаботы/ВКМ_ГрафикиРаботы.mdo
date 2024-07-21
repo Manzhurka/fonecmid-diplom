@@ -26,7 +26,7 @@
     <value>Графики работы</value>
   </listPresentation>
   <resources uuid="6f566b08-06c4-4412-87e5-eda5a39cf04d">
-    <name>ВКМ_РабочихДней</name>
+    <name>РабочихДней</name>
     <synonym>
       <key>ru</key>
       <value>Рабочих дней</value>
@@ -65,7 +65,7 @@
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="d34822b5-0b58-4431-b400-4192d3143a95">
-    <name>ВКМ_ГрафикРаботы</name>
+    <name>ГрафикРаботы</name>
     <synonym>
       <key>ru</key>
       <value>График работы</value>

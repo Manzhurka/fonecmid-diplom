@@ -20,7 +20,7 @@
   <writeMode>RecorderSubordinate</writeMode>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="024d6d02-f5d8-4b7d-a4c2-770388373250">
-    <name>ВКМ_ДнейОтпуска</name>
+    <name>ДнейОтпуска</name>
     <synonym>
       <key>ru</key>
       <value>Дней отпуска</value>
@@ -39,7 +39,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="7b1955ad-6d46-4f66-ae91-863cb19ea84c">
-    <name>ВКМ_Сотрудник</name>
+    <name>Сотрудник</name>
     <synonym>
       <key>ru</key>
       <value>Сотрудник</value>
@@ -55,7 +55,7 @@
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="5e172c09-dbe2-45cf-b084-72723de7375b">
-    <name>ВКМ_ДатаНачала</name>
+    <name>ДатаНачала</name>
     <synonym>
       <key>ru</key>
       <value>Дата начала</value>
@@ -74,7 +74,7 @@
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="da104e61-cb94-4468-bc7a-d28ae1e3c256">
-    <name>ВКМ_ДатаОкончания</name>
+    <name>ДатаОкончания</name>
     <synonym>
       <key>ru</key>
       <value>Дата окончания</value>

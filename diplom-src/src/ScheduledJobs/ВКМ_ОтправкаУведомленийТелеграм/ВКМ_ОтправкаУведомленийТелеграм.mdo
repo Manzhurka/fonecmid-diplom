@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Отправка уведомлений телеграм</value>
   </synonym>
-  <methodName>CommonModule.ВКМ_Телеграм.ВКМ_УведомлениеТелеграмБоту</methodName>
+  <methodName>CommonModule.ВКМ_Телеграм.УведомлениеТелеграмБоту</methodName>
   <use>true</use>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>

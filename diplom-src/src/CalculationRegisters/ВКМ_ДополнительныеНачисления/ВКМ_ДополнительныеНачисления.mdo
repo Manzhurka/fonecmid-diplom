@@ -24,7 +24,7 @@
     <value>Дополнительные начисления</value>
   </listPresentation>
   <resources uuid="32e80966-1f86-4390-be3f-727c8ae99e9c">
-    <name>ВКМ_Результат</name>
+    <name>Результат</name>
     <synonym>
       <key>ru</key>
       <value>Результат</value>
@@ -41,7 +41,7 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="38d94485-d666-4b5b-95ca-8344f5576b9b">
-    <name>ВКМ_Сотрудник</name>
+    <name>Сотрудник</name>
     <synonym>
       <key>ru</key>
       <value>Сотрудник</value>
